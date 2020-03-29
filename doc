@@ -1,0 +1,10 @@
+Testing
+
+Popup: finestra che compare al click dell'estensione
+
+Se premi F12 e vuoi usare la modalità ispeziona elemento naviga nella pagina
+`about:config` e disattiva la proprietà  `ui.popup.disable_autohide` impostandola a TRUE
+`about:debugging`
+
+[useful links]
+toggle ui.popup.disable_autohide to TRUE

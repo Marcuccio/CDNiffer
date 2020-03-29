@@ -1,0 +1,34 @@
+{
+  "description": "Detect CDN",
+  "manifest_version": 2,
+  "name": "CDNiffer",
+  "version": "1.0",
+
+  "description": "",
+  "icons": {
+   "48": "icons/old-english-sheepdog-white-48px.png",
+   "96": "icons/old-english-sheepdog-white-96px.png"
+ },
+
+
+  "permissions": [
+    "webRequest",
+    "<all_urls>",
+    "activeTab",
+    "tabs",
+    "dns"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/old-english-sheepdog-white-32px.png",
+    "default_title": "CDNiffer",
+    "default_popup": "popup/cdniffer-panel.html"
+  },
+
+
+  "background": {
+    "scripts": ["background.js", "exceptions.js", "CDNiffer.js"]
+  },
+
+  "web_accessible_resources": ["res/cname.json"]
+}
