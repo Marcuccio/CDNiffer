@@ -1,4 +1,4 @@
 function EntryNotFoundException(hostname) {
-   this.message = 'Entr not found: '+ hostname;
+   this.message = 'Entry not found: '+ hostname;
    this.name = 'EntryException';
 }

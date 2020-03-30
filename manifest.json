@@ -27,7 +27,7 @@
 
 
   "background": {
-    "scripts": ["background.js", "exceptions.js", "CDNiffer.js"]
+    "scripts": ["listeners.js", "background.js", "exceptions.js", "CDNiffer.js"]
   },
 
   "web_accessible_resources": ["res/cname.json"]
